@@ -14,5 +14,5 @@ const mapDBToModelSong = ({ id, title, performer }) => ({
 
 module.exports = {
   mapDBToModelPlaylist,
-  mapDBToModelSong
-}
+  mapDBToModelSong,
+};

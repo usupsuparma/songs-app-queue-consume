@@ -1,5 +1,5 @@
 const { Pool } = require('pg');
-const { mapDBToModelPlaylist, mapDBToModelSong } = require('./utils');
+const { mapDBToModelSong } = require('./utils');
 
 class PlaylistsService {
   constructor() {
